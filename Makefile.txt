@@ -1,0 +1,10 @@
+all: BinarySearch.c BinarySearchFunctions.c
+	gcc -o main BinarySearch.c BinarySearchFunctions.c -I .
+
+run:
+	./main
+
+clean:
+	rm -f main
+	rm -f t
+
